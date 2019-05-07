@@ -18,7 +18,12 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  name = []
-  array.shift()
-  puts array
+  array = []
+  if name.length == 0 
+    puts "There is nobody waiting to be served!"
+  else
+    array.push(name.shift())
+  end
+    puts ""
+  
 end
