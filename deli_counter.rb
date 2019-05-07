@@ -18,5 +18,6 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  puts "Currently serving #{katz_deli.shift}."
+  name = []
+  name.push("Currently serving: #{name.shift()}")
 end
