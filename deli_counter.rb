@@ -17,7 +17,8 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-def now_serving(name)
-  name = []
-  name.push("Currently serving: #{name.shift()}")
+def now_serving(array)
+  array = []
+  array.push("Currently serving: #{array.shift()}")
+  puts array
 end
